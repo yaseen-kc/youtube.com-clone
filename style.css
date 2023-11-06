@@ -4,57 +4,6 @@ p {
     margin-bottom: 0;
 }
 
-.thumbnail {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.search-bar {
-    display: block;
-}
-
-.video-title {
-    margin-top: 0px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    margin-bottom: 12px;
-
-}
-
-.channel-picture{
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
-}
-
-
-.video-info-grid {
-    display: grid;
-    grid-template-columns: 50px 1fr;
-}
-
-.profile-picture {
-    width: 40px;
-    border-radius: 50px;
-}
-
-.thumbnail-row {
-    margin-bottom: 12px;
-}
-
-.video-author,
-.video-stats {
-    font-size: 14px;
-    color: rgb(96, 96, 96);
-}
-
-.video-author {
-    margin-bottom: 4px;
-}
-.video-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 15px;
-    row-gap: 40px;
+body {
+    margin: 0;
 }
