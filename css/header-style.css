@@ -47,6 +47,31 @@
     height: 20px;
 }
 
+.search-button .tooltip,
+.voice-search-button .tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+    font-family: Robot, Arial;
+    font-size: 12px;
+    bottom: -30;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+    
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip {
+    opacity: 1;
+}
+
 .search-button {
     height: 40px;
     width: 66px;
@@ -56,6 +81,16 @@
     border-color: rgb(192, 192, 192);
     margin-left: -1px;
     margin-right: 10px;
+
+
+}
+
+.search-button,
+.voice-search-button {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
 }
 
 .search-bar::placeholder {
